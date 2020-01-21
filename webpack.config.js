@@ -88,6 +88,7 @@ const config = {
       new OptimizeCSSAssetsPlugin({})
     ]
   },
+
   plugins: [
     new MiniCssExtractPlugin({
       filename: 'quill-emoji.css',
